@@ -10,7 +10,7 @@ $(function () {
 
 
     $('.bottomBanner i').on('click', function () {
-        $('.bottompBanner .inner').slideToggle()
+        $('.bottomBanner .inner').slideToggle()
     });
 
     $('.popup button').on('click', function () {
