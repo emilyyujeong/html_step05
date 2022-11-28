@@ -6,19 +6,19 @@ $(function () {
     $('.mainSlide').slick()
 
 
-//     $('.tabMenu .tit>li').on('click', function () {
-//         var num = $(this).index();
-//         console.log(num);
-//         $('.tabMenu .tit>li').removeClass('on')
-//         $(this).addClass('on');
+    $('.tabMenu .tit>li').on('click', function () {
+        var num = $(this).index();
+        console.log(num);
+        $('.tabMenu .tit>li').removeClass('on')
+        $(this).addClass('on');
 
-//         $('.tabMenu .con>li').removeClass('on');
-//         $('.tabMenu .con>li').eq(num).addClass('on');
-//     })
-// })
+        $('.tabMenu .con>li').removeClass('on');
+        $('.tabMenu .con>li').eq(num).addClass('on');
+    })
+})
 
-// window.addEventListener('DOMComtemtLoaded', function () {
-//     document.querySelector('button').addEventListener('click', function () {
-//         document.querySelector('h1').classList.toggle('on')
-//     })
-// })
+window.addEventListener('DOMComtemtLoaded', function () {
+    document.querySelector('button').addEventListener('click', function () {
+        document.querySelector('h1').classList.toggle('on')
+    })
+})

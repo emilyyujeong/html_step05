@@ -9,13 +9,11 @@
     margin: 0 0 100px 0;
 }
 
-
 .topBanner .inner {
     padding: 50px 0;
     overflow: hidden;
     transition: 0.5s;
 }
-
 
 .topBanner.on .inner {
     height: 0;
